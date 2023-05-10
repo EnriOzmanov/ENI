@@ -1,0 +1,508 @@
+*{
+	margin:0;
+	padding:0;
+}
+.navigation{
+	padding-top:48px;
+}
+.header-items{
+	margin-bottom:20px;
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+}
+.logo-pg1{
+	padding-left:140px;
+	padding-top:41px;
+	position: absolute;
+}
+.nav-1pg{
+	margin-bottom:10px;
+	margin-left:1680px;
+}
+.nav-icons{
+	width:20px;
+	height: 20px;
+}
+.ul-1pg{
+	display: flex;
+	flex-direction: row-reverse;
+	list-style: none;
+	display: flex;
+}
+.li-1pg{
+	padding-left:20px;
+}
+.li-1pg a{
+	color:black;
+	width:20px;
+	height:20px;
+}
+/*input*/
+.input{
+	padding-left:166px;
+	padding-top:175px;
+	display: flex;
+}
+input{
+	width:1072px;
+	height:87px;
+	border-radius:62px 0px 0px 62px;
+	font-size:32px;
+	padding-left:64px;
+}
+.search-glass{
+	position: absolute;
+	width:24px;
+	height:24px;
+	vertical-align: middle;
+	padding-left:38px;
+	padding-top:32px;
+}
+.talent{
+	position: absolute;
+	width:392px;
+	height:87px;
+	background-color: white;
+	border:1px solid black;
+	margin-left:1072px;
+	vertical-align: middle;
+}
+.talent-hover{
+	background-color: white;
+	display: block;
+	position: absolute;
+	margin-top:87px;
+	width:394px;
+	height:256px;
+	border:1px solid black;
+	border-radius:0px 0px 25px 25px;
+	z-index: 10;
+	opacity: 0;
+}
+.talent:hover .talent-hover{
+	position: absolute;
+	opacity: 1;
+}
+.h-talent{
+	position: absolute;
+	height:85.3px;
+	width:394px;
+	border-bottom: 1px solid black;
+}
+.h-talent-p{
+	position: absolute;
+	font-size: 16px;
+	font-weight: 700;
+	margin-left: 70px;
+	margin-top:16px;
+}
+.h-talent-p2{
+	margin-left:70px;
+	margin-top:44px;
+	position: absolute;
+	font-size: 13px;
+	font-weight: 700;
+	color: #929292;
+}
+.h-projects{
+	position: absolute;
+	height:85.3px;
+	width:394px;
+	border-bottom: 1px solid black;
+	margin-top:85.3px;
+}
+.projects-blue{
+	position: absolute;
+	width:386px;
+	height: 75px;
+	border-radius: 10px;
+	margin-left:4px;
+	margin-top:5px;
+	background-color: #087DBF;
+}
+.projects-p{
+	position: absolute;
+	font-size: 16px;
+	font-weight: 700;
+	margin-left:74px;
+	margin-top:20px;
+}
+.projects-p2{
+	position: absolute;
+	font-size: 13;
+	font-weight: 700;
+	color: white;
+	margin-left:74px;
+	margin-top:45px;
+}
+.h-jobs{
+	position: absolute;
+	height:85.3px;
+	width:394px;
+	margin-top: 170.6px;
+}
+.h-jobs-p{
+	position: absolute;
+	margin-left:70px;
+	margin-top:20px;
+	font-size: 16px;
+	font-weight: 700;
+}
+.h-jobs-p2{
+	color: #929292;
+	position: absolute;
+	margin-top:49px;
+	margin-left: 70px;
+	font-size: 13px;
+	font-weight: 700;
+}
+.talent-p{
+	position: absolute;
+	font-size: 32px;
+	margin-left:43px;
+	margin-top:25px;
+}
+.talent-imgs{
+	position: absolute;
+	margin-left:20px;
+	margin-top:25px;
+}
+.angle-down{
+	position: absolute;
+	margin-left:162px;
+	margin-top:39px;
+}
+.left-input{
+	position: absolute;
+	margin-left:1465px;
+	width:122px;
+	height:87px;
+	border: 1px solid black;
+	border-radius: 0px 62px 62px 0px ;
+}
+.left-search{
+	width:30px;
+	height:30px;
+	margin-left:46px;
+	margin-top:29px;
+}
+
+/*jobs*/
+
+.first-img{
+	box-sizing: border-box;
+	position: absolute;
+	width: 392px;
+	height: 460px;
+	background: white;
+	border: 1px solid black;
+	border-radius: 30px;
+	margin-left:146px;
+	margin-top:50px;
+}
+.first-img .job-window-p{
+	position: absolute;
+	padding-top:15px;
+	padding-left:50px;
+	font-weight:700;
+	font-size:14px;
+}
+.job-window-p2{
+	position: absolute;
+	display: inline-block;
+	font-size:14px;
+	padding-left:50px;
+	padding-top:37px;
+}
+.job-window-sp{
+	position: absolute;
+	font-size:10px;
+	padding-top:42px;
+	padding-left:148px;
+}
+.window-prices{
+	display: inline-block;
+	position:absolute;
+	padding-left:244px;
+	padding-top:15px;
+}
+.window-price2{
+	position: absolute;
+	padding-left:282px;
+	padding-top:13px;
+}
+.window-img{
+	padding-top:15px;
+	padding-left:27px;
+	padding-right:27px;
+}
+.fa-regular{
+	position: absolute;
+	left: 325px;
+	right: 43px;
+	top: 55px;
+}
+.send-message-item{
+	padding-left:83px;
+	paddint-top:27px;
+}
+.send-message{
+	position: absolute;
+	width:225px;
+	height:50px;
+	background-color: #087DBF;
+	margint-left:83px;
+	margin-top:84px;
+	border-radius: 25px;
+}
+.send-m-h2{
+	position: absolute;
+	padding-left: 58px;
+	padding-top: 13px;
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+}
+.send-right{
+	position: absolute;
+	padding-left:20px;
+	padding-top:15px;
+}
+.star p{
+	position: absolute;
+	padding-left: 308px;
+	padding-top:39px;
+	font-size:16px;
+}
+.star img{
+	position: absolute;
+	padding-left:279px;
+	padding-top:35px;
+}
+/*man-blacks*/
+.man-black-suit{
+	margin-left:412px;
+}
+.woman-banner{
+	margin-left:824px;
+}
+.blonde-woman{
+	margin-left: 1236px;
+}
+.negro-africano{
+	position: absolute;
+	margin-top:490px;
+}
+.woman-black-suit{
+	position: absolute;
+	margin-top:490px;
+	margin-left:412px;
+}
+.man-black-tie{
+	position: absolute;
+	margin-top:490px;
+	margin-left:824px;
+}
+.black-woman{
+	position: absolute;
+	margin-top: 490px;
+	margin-left: 1236px;
+}
+/*second-page*/
+.header{
+	display: flex;
+	justify-content: space-between;
+}
+.logo-2pg{
+	width:44px;
+	height: 44px;
+}
+.logo-div-2pg{
+	margin-left:140px;
+	margin-top:41px;
+}
+.nav-2pg{
+	margin-top:48px;
+	margin-right:140px;
+}
+.ul-2pg{
+	flex-direction: row-reverse;
+	list-style: none;
+	display: flex;
+}
+.li-2pg{
+	padding-left:20px;
+	width:30px;
+	height:30px;
+}
+.header-div{
+	position: absolute;
+	margin-left:100px;
+	margin-top: 73px;
+}
+.header-img{
+	position: absolute;
+	z-index: 1;
+}
+.header-gray-div{
+	position: absolute;
+	margin-top:135px;
+	margin-left:100px;
+	width:1640px;
+	height:460px;
+	background-color: #EFEFEF;
+}
+.profile-photo{
+	margin-left:160px;
+	margin-top:239px;
+	position: absolute;
+	z-index: 1;
+}
+.davit-h1{
+	font-size: 40px;
+	font-weight: 700;
+	margin-left:437px;
+	margin-top:371px;
+	position: absolute;
+}
+.davit-p{
+	margin-left: 437px;
+	margin-top: 434px;
+	position: absolute;
+	font-size: 24px;
+	font-weight: 700;
+	color: #505050;
+}
+.davit-p2{
+	position: absolute;
+	margin-top:478px;
+	margin-left:437px;
+	font-size: 24px;
+	font-weight: 700;
+	color:#505050;
+}
+.davit-grade{
+	position: absolute;
+	font-size: 16px;
+	font-weight: 700;
+	margin-left:250px;
+	margin-top:488px;
+	color:#505050;
+}
+.star-5-div{
+	position: absolute;
+	margin-left:213px;
+	margin-top:522px;
+}
+.skills-div{
+	display: flex;
+	position: absolute;
+	margin-left:422px;
+	margin-top:522px;
+}
+.davit-skills{
+	margin-left:15px;
+	width:82px;
+	height:26px;
+	background-color: #D9D9D9;
+	border-radius: 13px;
+}
+.skill-html{
+	padding-left:17px;
+	padding-top:3px;
+}
+.skill-css{
+	padding-left:24px;
+	padding-top:3px;
+}
+.skill-js{
+	padding-left:31px;
+	padding-top: 3px;
+}
+.messg-itm-pg2{
+	position: absolute;
+	z-index: 1;
+	width:225px;
+	height:50px;
+	background-color: #087DBF;
+	margin-left:1395px;
+	margin-top:244px;
+	border-radius: 25px;
+}
+.send-right-pg2{
+	position: absolute;
+	padding-left: 20px;
+	padding-top: 15px;
+}
+.send-h2-pg2{
+	text-decoration: none;
+	position: absolute;
+	font-size: 20px;
+	padding-left:50px;
+	padding-top:13px;
+	color: white;
+}
+.gray-box{
+	margin-top:635px;
+	margin-left:100px;
+	width:1640px;
+	height:300px;
+	background-color: #EFEFEF;
+}
+.about-me{
+	font-size: 36px;
+	padding-left:20px;
+	padding-top:20px;
+}
+.davit-info{
+	font-size: 27px;
+	font-weight: 700;
+	color:#505050;
+	padding-left:20px;
+	padding-top:23px;
+}
+.projects-div{
+	display: flex;
+}
+.brifecase{
+	margin-top:67px;
+	margin-left:160px;
+}
+.see-projects{
+	margin-top:60px;
+	margin-left:23px;
+	font-size: 36px;
+	font-weight: 700;
+}
+.projects{
+	position: absolute;
+	padding-top:134px;
+	padding-left:160px;
+	font-size: 27px;
+	font-weight: 700;
+	color: black;
+}
+.big-gray-box{
+	width:1640px;
+	height:1246px;
+	background-color: #E2E2E2;
+	margin-left:100px;
+	margin-top:243px;
+	border-radius: 30px;
+}
+.images-box{
+	position: absolute;
+	margin-left:15px;
+	margin-top:4px;
+}
+.gray-box-img{
+	padding-left:30px;
+	padding-top:140px;
+}
+.portfolio{
+	position: absolute;
+	padding-left:698px;
+	padding-top:39px;
+	font-size: 40px;
+}
